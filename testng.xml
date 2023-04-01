@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="2" name="Test">
+    <classes>
+      <class name="testing.testng">
+      <methods>
+      <include name= "testA"/>
+      <include name="testC"/>
+      </methods>
+   </class>
+   <class name="testing.validationclass">
+   <methods>
+   <include name="To_verify_the_teacherpage_joinclass"/>
+   </methods>
+  </class>
+    </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
